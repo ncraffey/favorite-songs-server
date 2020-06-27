@@ -10,7 +10,8 @@
     "querystring": "~0.2.0",
     "request": "~2.83.0"
   },
-  "scripts":{
-    "start":"node auth-server/app.js"
+  "scripts": {
+    "build": "cd auth-server && npm install"
+    "start": "node auth-server/app.js"
   }
 }
