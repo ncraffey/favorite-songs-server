@@ -11,7 +11,7 @@
     "request": "~2.83.0"
   },
   "scripts": {
-    "build": "cd auth-server && npm install"
+    "build": "cd auth-server && npm install",
     "start": "node auth-server/app.js"
   }
 }
