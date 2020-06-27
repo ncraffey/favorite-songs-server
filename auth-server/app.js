@@ -15,7 +15,7 @@ var cookieParser = require('cookie-parser');
 
 var client_id = '2795dc0e0f7f4b43909ac3ad2f2b5051'; // Your client id
 var client_secret = 'd3e4d729ca2e473ba662456399fdc06a'; // Your secret
-var redirect_uri = 'http://localhost:8888/callback'; // Your redirect uri
+var redirect_uri = 'https://safe-cove-43916.herokuapp.com/callback'; // Your redirect uri
 
 /**
  * Generates a random string containing numbers and letters
